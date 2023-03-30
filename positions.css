@@ -1,0 +1,104 @@
+.Div{
+    height:200px;
+    width:270px;
+    border:2px solid red;
+    position: relative;
+}
+.Square{
+    height:50px;
+    width:50px;
+    border:1px solid black;
+    border-radius: 5px;
+    position:absolute;
+    left:10px;
+}
+.div1{
+background-color:yellow;
+top:10px;
+}
+.div2{
+background-color: cyan;
+top:40px;
+z-index:1;
+}
+.div3{
+    background-color: greenyellow;
+    bottom:75px;
+
+}
+.div4{
+    background-color: pink;
+    bottom:10px;
+}
+b{
+    position:absolute;
+    left:8px;
+}
+.Dashed-border{
+    height:200px;
+    width:400px;
+    border: 2px dashed black ;
+    margin-top:20px;
+    position: relative;
+}
+.Shape{
+    height:40px;
+    width:80px;
+    position:absolute;
+
+}
+.rectangular1{
+ background-color: red;
+}
+.rectangular2{
+    background-color: yellow;
+    bottom:0;
+}
+.rectangular3{
+    background-color: cyan;
+    left:150px;
+    bottom:80px;
+}
+.rectangular4{
+    background-color: orange;
+    top:0;
+    right:0;
+}
+.rectangular5{
+    background-color: rgb(47, 255, 71);
+    bottom:0;
+    right:0;
+}
+.Scroll{
+   height:500px;
+   width: 800px;
+    border: 2px solid black;
+    margin-top:20px;
+    position: relative;
+}
+header{
+    height:90px;
+    width: 800px;
+    background-color: green;
+    border-bottom: 4px dashed red ;
+
+}
+.Bottom{
+    height:50px;
+    width:50px;
+    background-color: brown;
+    border-radius: 50%;
+    left:730px;
+    bottom:30px;
+    position:fixed;
+
+}
+b{
+    color:white;
+    left: 10px;
+    top:10px;
+}
+.Lorem-ipsum{
+    max-height:410px;
+    overflow-x: scroll;
+}
